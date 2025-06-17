@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans" 
+}
+
+
+#nav{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 60px;
+}
+#logo img{
+    width: 100px;
+}
+#nav ul{
+    /* border: 1px solid black; */
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 230px;
+    gap: 40px;
+    color: #878787;
+}
+#nav ul li:nth-child(1){
+    color: rgb(48, 47, 47);
+}
+#nav button{
+    border: 2px solid #0566ea;
+    background-color: #fff;
+    color: #11c0f8;
+    border-radius: 10px;
+    padding: 12px 19px;
+}
+#main{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+
+}
+#left{
+    width: 50%;
+    border: 1px solid black;
+    padding: 40px 50px;
+}
+#right {
+    width: 50%;
+    /* height: 80vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+#left h1{
+    padding-top: 30px;
+    font-size: 60px;
+    font-weight: 565;
+}
+#left p{
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color:#878787; 
+}
+#left button{
+    margin-top: 30px;
+    padding: 10px 20px;
+    background:linear-gradient(to right bottom, #11c0f8, #0566ea);
+    color: #fff;
+    border: none;
+    border-radius:5px ;
+}
+#right img{
+    /* margin-right: 30px;
+    position: relative;
+    top: 87px;
+    left: 70px; */
+    width: 80%;
+
+}
+#main2{
+    margin-top: 120px;
+    margin-bottom: 100px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+    /* height: 85vh; */
+}
+#main3{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    /* height: 80vh; */
+}
+#serv-heading{
+    border: 1px solid black;
+    padding: 40px 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#serv-heading h1{
+    font-size: 35px;
+    padding: 0px 20px;
+}
+#serv-heading p{
+    border: 1px solid black;
+    font-size: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: start;
+    color:#878787; 
+}
+#cards{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap:wrap;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 70px;
+    padding: 0px 36px;
+    margin-bottom: 200px;
+}
+#icon img{
+    width: 48px;
+    padding-bottom: 30px;
+}
+#icon h4{
+    font-size: 22px;
+    color:#213958;
+    padding-bottom: 25px;
+}
+#icon p{
+    font-size: 12px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+#pricing{
+    /* border: 1px solid black; */
+    background-color: #0690F0;
+    padding: 60px 0px;
+    margin-top: 120px;
+    text-align: center;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+#pricing h2{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+#packages{
+    margin: 0 auto;
+    padding: 30px 10px;
+    display: inline-block;
+    gap:20px;
+    text-align: left;
+}
+#p-cards{
+    background-color: #fff;
+    position: relative;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-top: 20px;
+    text-align: start;
+    width: 320px;
+}
+
+#p-cards ul{
+    margin-top: 60px;
+    list-style-type: none;
+    margin-bottom: 40px;
+}
+#p-cards h4{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#p-cards ul li{
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    font-size: 15px;
+    color: #5C596C;
+    font-family: sans-serif;
+}
+
+#circle{
+    margin-right: 20px;
+    height: 15px;
+    width: 15px;
+    border: 2px solid #22DAAA;
+    border-radius: 100px;
+}
+#end{
+    /* border: 1px solid black; */
+    /* padding: 0px 1px; */
+    padding-right: 28px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+#end h4{
+    font-size: 32px;
+
+}
+#end p{
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+#end button{
+    padding: 10px 30px;
+    background: #fff;
+    border-radius: 10px;
+    border: 2px solid #0FC0F8;
+    color:#0FC0F8;
+    margin-top: 40px;
+    box-shadow: 0px 0px 10px 8px rgba(5, 102, 234,.1);
+
+}
+#end #btn-2{
+    padding: 10px 30px;
+    background-color: #0C92F0;
+    color: #fff;
+    border-radius: 10px;
+    border:none;
+    margin-top: 40px;
+    box-shadow: 0px 0px 10px 8px rgba(5, 102, 234,.1);
+}
+#customer{
+    margin-top: 10%;
+}
+#customer h1{
+    text-align: center;
+    font-size: 45px;
+    color: #14263F;
+}
+#customer p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+    padding-bottom: 60px;
+    color: #B8B3CB;
+}
+#cust-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+#c-card{
+    padding: 10px 25px; 
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    width: 28rem;
+    margin-bottom: 20px;
+}
+#c-card p{
+    text-align: left;
+    color: black;
+    font-size: 15px;
+}
+#info{
+    display: flex;
+    gap: 15px;
+    padding: 1px 10px;
+}
+
+#persn h5{
+    /* margin-top: 17px; */
+    font-size: 1rem;
+
+}
+#persn p{
+    margin-top:-15px ;
+}
+
+#footer{
+   background-image: url(./assets-proj11/footer-bg.svg);
+   position: relative;
+   left: 0;
+   right: 0;
+   background-repeat: no-repeat;
+   margin-top: 120px;
+}
+#f-banner{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 65px 90px;
+}
+#f-banner h1{
+    font-size: 43px;
+}
+#f-banner p{
+    margin-top: 20px;
+    text-align: start;
+}
+#f-banner #f-btn button{
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    padding: 15px 35px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 37px;
+}
+#f-bottom{
+    border: 1px solid black;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 8px 70px;
+    margin-bottom: 20px;
+
+}
+#f-bottom #content img{
+    margin-top: 20px;
+    width: 90px;
+}
+#f-bottom #content p{
+    padding-top: 20px;
+    color: #777777;
+    font-size: 15px;
+}
+#f-nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-top: 20px;
+
+}
+
+#f-nav div h5{
+    padding-bottom: 20px;
+    font-size: 22px;
+    color: #14263F;
+}
+
+#f-nav div ul{
+    list-style-type: none;
+}
+#f-nav ul li{
+    padding-bottom: 20px;
+    color: #6E6E6E;
+    font-size: 12px;
+}
+#sns{
+    margin-top: 20px;
+    border: 1px solid black;
+}
+#sns ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+#sns h5{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+#sns img{
+    width: 30px;
+}
+
+
+@media screen and (max-width:400px){
+    #main{
+
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #right{
+        width: 100%;
+
+    }
+    #right img{
+        width: 350px;
+    }
+    #left{
+        width: 100%;
+    }
+
+    #main2{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #main3{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #serv-heading{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    #serv-heading p{
+        text-align: start;
+
+    }
+
+    #cust-cards{
+        display: flex;
+        flex-direction: column;
+        padding-left: 45px;
+    }
+    #c-card{
+        padding: 3px 9px;
+        text-align: left;
+        width: 20rem;
+    }
+    #footer{
+        height: 50vh;
+
+    }
+    #f-banner{
+        padding: 5px 3px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 14px;
+
+    }
+
+    #f-banner h1{
+        margin-top: 40px;
+        font-size: 22px;
+        text-align: start;
+    }
+    #f-btn{
+        margin-top: 60px;
+        margin-right:150px ;
+    }
+
+    #f-bottom{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    #f-nav{
+        display: flex;
+
+        
+    }
+    
+
+}
