@@ -45,7 +45,7 @@
 }
 #left{
     width: 50%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 40px 50px;
 }
 #right {
@@ -54,7 +54,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 #left h1{
     padding-top: 30px;
@@ -86,19 +86,19 @@
 #main2{
     margin-top: 120px;
     margin-bottom: 100px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: row-reverse;
     /* height: 85vh; */
 }
 #main3{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
     /* height: 80vh; */
 }
 #serv-heading{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 40px 50px;
     margin-top: 100px;
     display: flex;
@@ -110,7 +110,7 @@
     padding: 0px 20px;
 }
 #serv-heading p{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     font-size: 16px;
     padding-left: 40px;
     padding-right: 40px;
@@ -320,7 +320,7 @@
     margin-bottom: 37px;
 }
 #f-bottom{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 150px;
     display: flex;
     justify-content: space-between;
@@ -363,7 +363,7 @@
 }
 #sns{
     margin-top: 20px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 #sns ul{
     list-style-type: none;
@@ -422,7 +422,8 @@
     #cust-cards{
         display: flex;
         flex-direction: column;
-        padding-left: 45px;
+        justify-content: center;
+        padding-left: 25px;
     }
     #c-card{
         padding: 3px 9px;
